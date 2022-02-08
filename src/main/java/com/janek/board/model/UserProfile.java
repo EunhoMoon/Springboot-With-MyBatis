@@ -1,12 +1,12 @@
 package com.janek.board.model;
 
-public class User {
+public class UserProfile {
 	private String id;
 	private String name;
 	private String phone;
 	private String address;
 	
-	public User(String id, String name, String phone, String address) {
+	public UserProfile(String id, String name, String phone, String address) {
 		super();
 		this.id = id;
 		this.name = name;
